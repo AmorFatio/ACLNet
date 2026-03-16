@@ -14,9 +14,16 @@ To address these issues, we propose **ACLNet**, a context-aware feature-enhancem
 
 ## 📊 Performance Benchmark
 ACLNet has been extensively evaluated on three representative public benchmarks:
+
+![ACLNet Architecture](docs/table1.png)
 * **DIOR Dataset:** Achieves **72.5%** mAP50, outperforming mainstream YOLO variants and recent specialized methods.
+
+![ACLNet Architecture](docs/table2.png)
 * **RSOD Dataset:** Achieves **95.1%** mAP50 in high-density small-object scenarios.
+
+![ACLNet Architecture](docs/table3.png)
 * **Hazy-Det Dataset:** Demonstrates strong robustness under degradation, achieving **63.3%** mAP50 on the Synthetic Test Set and **39.4%** mAP50 on the Real-World Test Set.
+
 
 ## 🚀 Getting Started
 
@@ -49,15 +56,8 @@ python val.py --weights runs/train/exp/weights/best.pt --data data/dior.yaml
 ```
 
 ## 🖼️ Architecture
-*(Recommendation: Add an image link to your overall framework diagram here, e.g., `![ACLNet Architecture](docs/architecture.png)`)*
+![ACLNet Architecture](docs/architecture.png)`)
 
 ## 🎓 Citation
-If you find this project useful for your research, please consider citing our paper:
-```bibtex
-@article{wang2026aclnet,
-  title={Adaptive Context-Aware Localization Network for Remote Sensing Object Detection Under Haze and Class Imbalance},
-  author={Wang, Yingjun and Yang, Xiaopeng and Wang, Yingjian and Liang, Zheng and Zhao, Wenyi and Zhang, Weidong},
-  journal={IEEE Transactions on Geoscience and Remote Sensing},
-  year={2026}
-}
+
 ```
