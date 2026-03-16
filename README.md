@@ -49,7 +49,7 @@ python val.py --weights runs/train/exp/weights/best.pt --data data/dior.yaml
 ```
 
 ## 🖼️ Architecture
-*(Recommendation: Add an image link to your overall framework diagram here, e.g., `![ACLNet Architecture](docs/architecture.pdf)`)*
+*(Recommendation: Add an image link to your overall framework diagram here, e.g., `![ACLNet Architecture](docs/architecture.png)`)*
 
 ## 🎓 Citation
 If you find this project useful for your research, please consider citing our paper:
